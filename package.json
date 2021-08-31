@@ -1,0 +1,36 @@
+{
+  "name": "create-command-line-interface",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": {
+    "name": "HuSong",
+    "email": "gz65555@gmail.com"
+  },
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc"
+  },
+  "bin": {
+    "create-command-line-template": "./bin/cli"
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "types": "types",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.12",
+    "@types/inquirer": "^7.3.3",
+    "@types/klaw": "^3.0.2",
+    "prettier": "^2.3.2",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "cac": "^6.7.3",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.2",
+    "klaw": "^3.0.0"
+  }
+}

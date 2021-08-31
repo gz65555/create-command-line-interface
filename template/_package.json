@@ -1,0 +1,30 @@
+{
+  "name": "{{name}}",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": {
+    "name": "{{username}}",
+    "email": "{{email}}"
+  },
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc"
+  },
+  "bin": {
+    "{{cmdname}}": "./bin/cli"
+  },
+  "files": ["dist", "bin"],
+  "types": "types",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.12",
+    "@types/inquirer": "^7.3.3",
+    "prettier": "^2.3.2",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "cac": "^6.7.3",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.2"
+  }
+}
