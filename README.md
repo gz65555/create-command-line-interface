@@ -15,13 +15,13 @@ npm link
 > Compatibility Note: Node.js version >=12.0.0.
 
 ```shell
-npm init @oasis-engine/oasis-app
+npm init command-line-interface
 ```
 
 ### yarn
 
 ```shell
-yarn create @oasis-engine/oasis-app
+yarn create command-line-interface
 ```
 
 ## Features
