@@ -2,15 +2,6 @@
 
 ## Usage
 
-### local
-
-1. create a CLI application
-```shell
-create-command-line-template
-cd <directory>
-npm i
-npm link
-```
 ### npm
 > Compatibility Note: Node.js version >=12.0.0.
 
