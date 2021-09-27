@@ -1,6 +1,6 @@
 {
   "name": "create-command-line-interface",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "author": {
     "name": "HuSong",
@@ -16,7 +16,8 @@
   "files": [
     "dist",
     "bin",
-    "lib"
+    "lib",
+    "template"
   ],
   "types": "types",
   "license": "MIT",
