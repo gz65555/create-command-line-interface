@@ -3,6 +3,9 @@ import path from "path";
 import fs from "fs-extra";
 import inquirer from "inquirer";
 import chalk from "chalk";
+import * as url from "url";
+
+const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 
 const questions: inquirer.QuestionCollection[] = [
   {
