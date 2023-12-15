@@ -6,6 +6,10 @@
     "name": "HuSong",
     "email": "gz65555@gmail.com"
   },
+  "repository": {
+    "url": "https://github.com/gz65555/create-command-line-interface",
+    "type": "git"
+  },
   "scripts": {
     "dev": "tsc -w",
     "build": "tsc"
