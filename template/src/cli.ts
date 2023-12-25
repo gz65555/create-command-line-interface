@@ -1,4 +1,4 @@
-import cac from "cac";
+import { cac } from "cac";
 import path from "path";
 import fs from "fs-extra";
 import inquirer from "inquirer";
